@@ -21,6 +21,7 @@ class YouTubeDownloader:
                 file_ = YouTubeDownloader.download_video(url)
                 st.video(file_)
                 YouTubeDownloader.helper_message()
+        st.markdown("> App for fun and learning by [aziz](https://github.com/iamaziz/YouTube_downloader_app)")
 
     @staticmethod
     def download_video(url):
